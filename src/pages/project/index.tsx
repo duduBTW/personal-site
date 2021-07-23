@@ -21,11 +21,9 @@ export default function ProjectsPage({ projects }: Props): JSX.Element {
 //   };
 // };
 export const getServerSideProps = async (props) => {
-  const data: IProject[] = await getData();
-
   return {
     props: {
-      projects: data,
+      projects: {},
     },
   };
 };

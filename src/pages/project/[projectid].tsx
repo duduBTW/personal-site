@@ -52,34 +52,9 @@ interface ProjectUrlParams extends Record<string, string | string[]> {
 //   };
 // };
 export const getServerSideProps = async (props) => {
-  if (!props.params) return { notFound: true };
-  const data: IProject[] = await getData();
-
-  let project = data.find((p) => p.id === props.params?.projectid);
-
-  project?.steps?.map((steps, stepsI) =>
-    steps.stepItem.map((step) => {
-      if (step.type !== "folder") return;
-
-      const dir = path.resolve("./public/port", step.src);
-      const filenames = fs.readdirSync(dir);
-      const images = filenames.map((name) => `/port/${step.src}/${name}`);
-
-      //@ts-ignore
-      project!.steps[stepsI].stepItem = images.map(
-        (img): IStepItem => ({
-          type: "image",
-          src: img,
-        })
-      );
-    })
-  );
-
-  project?.steps?.map((i) => console.log(i));
-
   return {
     props: {
-      project,
+      project: {},
     },
   };
 };
