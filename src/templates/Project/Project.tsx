@@ -26,13 +26,13 @@ export default function Project({ project }: Props) {
           color="#f73c77"
         />
         <h1>
-          {project.title} -{" "}
-          {project.steps ? `${currentStep} / ${project.steps.length}` : null}
+          {project?.title} -{" "}
+          {project?.steps ? `${currentStep} / ${project?.steps?.length}` : null}
         </h1>
       </ProjectTitle>
       <FullPage afterChange={(step) => setCurrentStep(step.to + 1)}>
-        {project.steps?.map((step) => (
-          <Slide key={step.title}>
+        {project?.steps?.map((step) => (
+          <Slide key={step?.title}>
             <ProjectSection step={step} />
           </Slide>
         ))}

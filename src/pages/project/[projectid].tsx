@@ -43,8 +43,6 @@ export const getStaticProps: GetStaticProps<any, ProjectUrlParams> = async (
     })
   );
 
-  project?.steps?.map((i) => console.log(i));
-
   return {
     props: {
       project,
