@@ -11,19 +11,12 @@ export default function ProjectsPage({ projects }: Props): JSX.Element {
   return <ProjectsTemplate projects={projects} />;
 }
 
-// export const getStaticProps: GetStaticProps<any, any> = async (props) => {
-//   const data: IProject[] = await getData();
+export const getStaticProps: GetStaticProps<any, any> = async (props) => {
+  const data: IProject[] = await getData();
 
-//   return {
-//     props: {
-//       projects: data,
-//     },
-//   };
-// };
-export const getServerSideProps = async (props) => {
   return {
     props: {
-      projects: {},
+      projects: data,
     },
   };
 };

@@ -12,18 +12,11 @@ export default function Home({ projects }: Props): JSX.Element {
 }
 
 export const getStaticProps: GetStaticProps<any, any> = async (props) => {
+  const data: IProject[] = await getData();
+
   return {
     props: {
-      projects: [],
+      projects: data,
     },
   };
 };
-// export const getStaticProps: GetStaticProps<any, any> = async (props) => {
-//   const data: IProject[] = await getData();
-
-//   return {
-//     props: {
-//       projects: data,
-//     },
-//   };
-// };
