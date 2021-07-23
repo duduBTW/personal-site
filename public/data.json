@@ -1,0 +1,248 @@
+[
+  {
+    "id": "1",
+    "title": "Site institucional taka",
+    "miniature": "/port/ERLRJBX.png",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para um artista, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "iframe", "src": "https://taka.vercel.app"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Site para um artista, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "taka"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "miniature": "/port/mGswVRD.png",
+    "title": "Site Feneko",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "",
+        "stepItem": [
+          {"type": "iframe", "src": "https://feneko.vercel.app/en"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "",
+        "stepItem": [
+          {"type": "image", "src": "/port/mGswVRD.png"},
+          {"type": "folder", "src": "Feneko"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "miniature": "/port/MikoSample.png",
+    "type": "overlay",
+    "title": "Overlay para Miiko",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/MikoSample.png"},
+          {"type": "image", "src": "/port/miiko/Frame 12.png"},
+          {"type": "image", "src": "/port/miiko/Frame 13.png"},
+          {"type": "image", "src": "/port/miiko/Frame 14.png"},
+          {"type": "image", "src": "/port/miiko/Frame 15.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Mangadex app mobile",
+    "miniature": "/port/Bg4K3iV.png",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Protótipo",
+        "desc": "",
+        "stepItem": [
+          {"type": "folder", "src": "mangadex"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gio",
+    "title": "Site institucional Gio",
+    "miniature": "/port/Captura de tela 2021-07-23 131351.png",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para um animador, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "iframe", "src": "https://gioo.vercel.app/"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Site para um animador, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "gio"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gizama",
+    "miniature": "/port/LRf3MiN.png",
+    "type": "dev",
+    "title": "Site institucional Gizama",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para um animador, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "image", "src": "/port/LRf3MiN.png"},
+          {"type": "iframe", "src": "https://www.gizama.com.br/"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Site para um animador, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "gizama"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dreams",
+    "miniature": "/port/dreams.png",
+    "type": "overlay",
+    "title": "Overlay para Kiki Nene",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/dreams.png"},
+          {"type": "image", "src": "/port/dreams/Frame 4.png"},
+          {"type": "image", "src": "/port/dreams/Frame 5.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taka_overlay",
+    "miniature": "/port/taka/ov/all.png",
+    "type": "overlay",
+    "title": "Overlay para Taka",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/taka/ov/all.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 26.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 27.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 28.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 29.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 30.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 31.png"},
+          {"type": "image", "src": "/port/taka/ov/all/Frame 32.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blackout",
+    "title": "Site Blackout",
+    "miniature": "/port/blackout.png",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para um servidor, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "iframe", "src": "https://www.blackoutpixelmon.xyz/"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Site para um servidor, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "blackout"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mangadex-web",
+    "title": "Site Mangadex",
+    "miniature": "/port/mangadex-web/1a.jpg",
+    "type": "dev",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site não oficial para um leitor de mangas, criado utilizando Vue/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "iframe", "src": "https://priceless-mcclintock-e33697.netlify.app"},
+          {"type": "iframe", "src": "https://priceless-mcclintock-e33697.netlify.app/title/1"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Site não oficial para um leitor de mangas, criado utilizando Vue/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "mangadex-web"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Cherry_Moon",
+    "miniature": "/port/cherry/all.png",
+    "type": "overlay",
+    "title": "Overlay Cherry Moon",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "folder", "src": "cherry"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "todo",
+    "miniature": "/port/todo/all.png",
+    "type": "dev",
+    "title": "Afazeres",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Aplicativo para controlar afazeres",
+        "stepItem": [
+          {"type": "iframe", "src": "https://www.youtube.com/embed/1n-sS41QaP0"},
+          {"type": "image", "src": "/port/todo/all.png"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Aplicativo para controlar afazeres",
+        "stepItem": [
+          {"type": "folder", "src": "todo"}
+        ]
+      }
+    ]
+  }
+]
