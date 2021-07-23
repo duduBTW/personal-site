@@ -25,12 +25,12 @@ export default function Projects({ projects }: Props) {
     <ProjectsWrapper>
       <div className="title">
         <ProjectTitle />
-        <span onClick={() => push("/project")}>(ver grid)</span>
+        <span onClick={() => push("/project")}>(expandir)</span>
       </div>
       <select name="show" onChange={(e) => setFilter(e.target.value)}>
         <option value="all">Todos</option>
+        <option value="dev">Desenvolvimento</option>
         <option value="overlay">Overlays</option>
-        <option value="dev">Dev</option>
       </select>
       <ProjectCardList projects={projectsData} />
     </ProjectsWrapper>

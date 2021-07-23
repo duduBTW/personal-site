@@ -36,8 +36,8 @@ export default function ProjectsTemplate({ projects }: Props): ReactElement {
         <div className="spacer"></div>
         <select name="show" onChange={(e) => setFilter(e.target.value)}>
           <option value="all">Todos</option>
+          <option value="dev">Desenvolvimento</option>
           <option value="overlay">Overlays</option>
-          <option value="dev">Dev</option>
         </select>
       </div>
       <ProjectCardGrid projects={projectsData} />

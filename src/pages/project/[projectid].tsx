@@ -62,6 +62,6 @@ export const getStaticPaths: GetStaticPaths<any> = async (ctx) => {
 };
 
 export const getData = async (): Promise<IProject[]> => {
-  const response = await fetch("http://localhost:3000/data.json");
+  const response = await fetch(`${process.env.BASE_URL}/data.json`);
   return await response.json();
 };
