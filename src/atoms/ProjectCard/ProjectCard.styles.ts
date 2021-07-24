@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 
 export const ProjectCardWrapper = styled(motion.div)`
   transition: box-shadow 0.2s ease;
-  min-width: 627px;
+  width: 100%;
   height: 475px;
   cursor: pointer;
   position: relative;
+  min-width: 300px;
 
   /* border: 1px solid #f73c77; */
   box-sizing: border-box;

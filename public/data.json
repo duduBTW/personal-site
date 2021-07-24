@@ -88,6 +88,7 @@
         "title": "Produto final",
         "desc": "Site para um animador, criado utilizando React/Next/Typescript, protótipo feito no figma",
         "stepItem": [
+          {"type": "image", "src": "/port/Captura de tela 2021-07-23 131351.png"},
           {"type": "iframe", "src": "https://gioo.vercel.app/"}
         ]
       },

@@ -33,6 +33,10 @@ export const ProjectTitle = styled.div`
   .icon {
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 800px) {
+    padding: 0px 30px;
+  }
 `;
 export const ProjectWrapper = styled.div`
   display: flex;

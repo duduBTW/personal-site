@@ -16,6 +16,12 @@ export const ProjectSectionInfo = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
+  @media only screen and (max-width: 800px) {
+    grid-column: 1 / span 24;
+    grid-row: 1 / 2;
+    padding: 15px 30px;
+  }
 `;
 
 export const ProjectSectionImages = styled(motion.div)`
@@ -30,12 +36,21 @@ export const ProjectSectionImages = styled(motion.div)`
 
   align-items: center;
   overflow-x: auto;
+
+  @media only screen and (max-width: 800px) {
+    grid-column: 1 / span 24;
+    grid-row: 2 / 10;
+    padding: 10px;
+  }
 `;
 
 export const ProjectSectionIframe = styled(motion.iframe)`
   width: 90%;
   min-width: 90%;
   height: calc(100% - 120px);
+  @media only screen and (max-width: 800px) {
+    height: calc(100% - 20px);
+  }
 
   white-space: nowrap;
   background: white;
