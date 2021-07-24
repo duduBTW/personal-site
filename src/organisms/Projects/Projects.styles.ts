@@ -7,6 +7,9 @@ export const ProjectsWrapper = styled.div`
   grid-template-columns: repeat(24, 1fr);
   grid-template-rows: 1fr 2.5fr;
   grid-column-gap: 20px;
+  @media only screen and (max-width: 800px) {
+    grid-column-gap: 5px;
+  }
   grid-row-gap: 80px;
 
   span {
@@ -26,6 +29,10 @@ export const ProjectsWrapper = styled.div`
   .project-card-list {
     grid-row: 2 / 3;
     grid-column: 2 / span 24;
+
+    @media only screen and (max-width: 800px) {
+      grid-column: 2 / span 26;
+    }
   }
 
   .title {

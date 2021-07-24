@@ -1,17 +1,26 @@
 import { useRouter } from "next/dist/client/router";
 import React from "react";
 import { IProject } from "types/Project";
-import { ProjectCardImage, ProjectCardWrapper } from "./ProjectCard.styles";
+import {
+  ProjectCardImage,
+  ProjectCardTitle,
+  ProjectCardWrapper,
+} from "./ProjectCard.styles";
 
 interface Props {
   project: IProject;
+  minWidth?: string;
 }
 
-export default function ProjectCard({ project: { id, miniature } }: Props) {
+export default function ProjectCard({
+  project: { id, miniature, title },
+  ...rest
+}: Props) {
   const { push } = useRouter();
 
   return (
     <ProjectCardWrapper
+      {...rest}
       onClick={() => push(`/project/${id}`)}
       layout
       layoutId={`project-card-${id}`}
@@ -21,6 +30,7 @@ export default function ProjectCard({ project: { id, miniature } }: Props) {
       transition={{ ease: "easeInOut" }}
     >
       <ProjectCardImage src={miniature} />
+      <ProjectCardTitle className="p-c-t">{title}</ProjectCardTitle>
     </ProjectCardWrapper>
   );
 }

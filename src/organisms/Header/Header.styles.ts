@@ -1,23 +1,25 @@
 import styled from "@emotion/styled";
+import Section from "atoms/Section";
 
-export const HeaderWrapper = styled.div`
-  height: 100%;
-  display: grid;
+export const HeaderWrapper = styled(Section)`
   gap: 20px;
 
-  grid-template-columns: repeat(24, 1fr);
   align-items: center;
 `;
 
 export const HeaderTitleWrapper = styled.div`
   grid-column: 2 / span 12;
   grid-row: 1/2;
+
+  @media only screen and (max-width: 800px) {
+    grid-row: 1 / 1;
+  }
 `;
 
 export const HeaderTitle = styled.h1`
   font-style: normal;
   font-weight: 500;
-  font-size: 120px;
+  font-size: clamp(72px, 4vw, 120px);
   line-height: 163px;
   letter-spacing: 0.1em;
   padding: 0px;
@@ -42,4 +44,8 @@ export const HeaderImage = styled.img`
 
   pointer-events: none;
   max-width: 100%;
+
+  @media only screen and (max-width: 800px) {
+    grid-row: 2 / 3;
+  }
 `;

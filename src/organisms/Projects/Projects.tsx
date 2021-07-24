@@ -15,7 +15,7 @@ export default function Projects({ projects }: Props) {
 
   useEffect(() => {
     if (filter !== "all") {
-      setProjectsData(projects.filter((p) => p.type !== filter));
+      setProjectsData(projects.filter((p) => p.type === filter));
     } else {
       setProjectsData(projects);
     }

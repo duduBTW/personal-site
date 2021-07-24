@@ -11,11 +11,13 @@ interface Props {
 export default function ProjectCardList({ projects }: Props) {
   return (
     <ProjectCardListWrapper className="project-card-list">
-      {/* <FlipMove> */}
       {projects.map((project) => (
-        <ProjectCard project={project} key={project.miniature} />
+        <ProjectCard
+          minWidth={"500px"}
+          project={project}
+          key={project.miniature}
+        />
       ))}
-      {/* </FlipMove> */}
     </ProjectCardListWrapper>
   );
 }
