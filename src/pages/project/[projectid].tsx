@@ -16,11 +16,11 @@ export default function ProjectItemPage({ project, imagesOG }: Props) {
   return (
     <>
       <NextSeo
-        title={`${project.title}, dudubtw projeto`}
-        description={`${project.steps?.[0].desc}`}
+        title={`${project?.title}, dudubtw projeto`}
+        description={`${project?.steps?.[0].desc}`}
         openGraph={{
-          title: `${project.title}, dudubtw projeto`,
-          description: `${project.steps?.[0].desc}`,
+          title: `${project?.title}, dudubtw projeto`,
+          description: `${project?.steps?.[0].desc}`,
           site_name: "DuduBTW",
           images: imagesOG,
         }}
