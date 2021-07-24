@@ -1,6 +1,7 @@
 import { AnimateSharedLayout, useCycle } from "framer-motion";
 import { StepDesc, StepTitle } from "molecules/Step/Step.styles";
-import React from "react";
+import React, { useRef } from "react";
+import { AiOutlineRight } from "react-icons/ai";
 import { IStep, IStepItem } from "types/Project";
 import {
   ProjectSectionIframe,
@@ -8,6 +9,7 @@ import {
   ProjectSectionImages,
   ProjectSectionInfo,
   ProjectSectionWrapper,
+  ScrollRigth,
 } from "./ProjectSection.styles";
 
 interface Props {
@@ -15,6 +17,7 @@ interface Props {
 }
 
 export default function ProjectSection({ step }: Props) {
+  const id = `container-${step.title}`;
   return (
     <ProjectSectionWrapper>
       <ProjectSectionInfo>
@@ -22,10 +25,19 @@ export default function ProjectSection({ step }: Props) {
         <StepDesc>{step.desc}</StepDesc>
       </ProjectSectionInfo>
       <AnimateSharedLayout>
-        <ProjectSectionImages layout>
+        <ProjectSectionImages id={id} layout>
           {step.stepItem.map((item) => (
             <ProjectSectionItem step={item} key={item.src} />
           ))}
+          <ScrollRigth
+            onClick={(e) => {
+              var container = document.getElementById(id);
+
+              if (container) container.scrollLeft += window.innerWidth / 2;
+            }}
+          >
+            <AiOutlineRight color="black" size={30} />
+          </ScrollRigth>
         </ProjectSectionImages>
       </AnimateSharedLayout>
     </ProjectSectionWrapper>
