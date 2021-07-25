@@ -11,7 +11,15 @@ interface Props {
 }
 
 export default function ProjectsTemplate({ projects }: Props): ReactElement {
-  const { push } = useRouter();
+  const { push, query } = useRouter();
+
+  useEffect(() => {
+    const q = query?.def;
+    if ((q && q === "all") || q === "overlay" || q === "dev") {
+      setFilter(query?.def as string);
+    }
+  }, [query]);
+
   const [filter, setFilter] = useState("all");
   const [projectsData, setProjectsData] = useState(projects);
 
@@ -34,7 +42,11 @@ export default function ProjectsTemplate({ projects }: Props): ReactElement {
         />
         <ProjectTitle />
         <div className="spacer"></div>
-        <select name="show" onChange={(e) => setFilter(e.target.value)}>
+        <select
+          name="show"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        >
           <option value="all">Todos</option>
           <option value="dev">Desenvolvimento</option>
           <option value="overlay">Overlays</option>
