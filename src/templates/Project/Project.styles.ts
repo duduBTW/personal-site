@@ -1,6 +1,9 @@
 import styled from "@emotion/styled";
 
 export const ProjectTitle = styled.div`
+  z-index: 3;
+  position: relative;
+
   height: 66px;
   width: 100%;
 

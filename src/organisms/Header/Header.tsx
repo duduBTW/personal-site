@@ -11,10 +11,21 @@ export default function Header() {
   return (
     <HeaderWrapper>
       <HeaderTitleWrapper>
-        <HeaderTitle>DuduBTW</HeaderTitle>
-        <HeaderSubTitle>Desenvolvedor frontend</HeaderSubTitle>
+        <HeaderTitle
+          initial={{ y: "-100%" }}
+          transition={{ delay: 0.2 }}
+          animate={{ y: 0 }}
+        >
+          DuduBTW
+        </HeaderTitle>
+        <HeaderSubTitle
+          initial={{ y: "100%" }}
+          transition={{ delay: 0.5 }}
+          animate={{ y: 0 }}
+        >
+          Desenvolvedor frontend
+        </HeaderSubTitle>
       </HeaderTitleWrapper>
-      <HeaderImage src="/skillks.svg" />
     </HeaderWrapper>
   );
 }

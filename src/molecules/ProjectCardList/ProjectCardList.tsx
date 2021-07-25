@@ -13,7 +13,7 @@ export default function ProjectCardList({ projects }: Props) {
     <ProjectCardListWrapper className="project-card-list">
       {projects.map((project) => (
         <ProjectCard
-          minWidth={"500px"}
+          minWidth={"600px"}
           project={project}
           key={project.miniature}
         />

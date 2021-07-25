@@ -17,7 +17,7 @@ export const ProjectCardWrapper = styled(motion.div)<ProjectCardWrapperProps>`
   cursor: pointer;
   position: relative;
 
-  /* border: 1px solid #f73c77; */
+  border: 1px solid #8c8c8c;
   box-sizing: border-box;
   border-radius: 0.8rem;
   overflow: hidden;

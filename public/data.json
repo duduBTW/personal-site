@@ -64,6 +64,29 @@
     ]
   },
   {
+    "id": "dash-esoaicl",
+    "miniature": "/port/eSocial.png",
+    "type": "eSocial",
+    "title": "Dashboard eSocial",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Dashboard para controle do eSocial.",
+        "stepItem": [
+          {"type": "iframe", "src": "https://www.youtube.com/embed/eAfEG_LaP7U"}
+        ]
+      },
+      {
+        "title": "Protótipo",
+        "desc": "Protótipos, o cliente pode selecionar o tipo do eSocial, adicionar filtros e realizar o controle.",
+        "stepItem": [
+          {"type": "folder", "src": "eSocial"}
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "4",
     "title": "Mangadex app mobile",
     "miniature": "/port/Bg4K3iV.png",
@@ -223,6 +246,7 @@
       }
     ]
   },
+ 
   {
     "id": "todo",
     "miniature": "/port/todo/all.png",
@@ -242,6 +266,162 @@
         "desc": "Aplicativo para controlar afazeres",
         "stepItem": [
           {"type": "folder", "src": "todo"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dash",
+    "miniature": "/port/dash/Frame 2.png",
+    "type": "dev",
+    "title": "Dashboard plano de ação",
+    "steps": [
+      {
+        "title": "Protótipo",
+        "desc": "Dashboard para controle de plano de ação",
+        "stepItem": [
+          {"type": "folder", "src": "dash"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dash-comercial",
+    "miniature": "/port/comercial.png",
+    "type": "eSocial",
+    "title": "Dashboard Comercial",
+    "steps": [
+      {
+        "title": "Protótipos",
+        "desc": "Dashboard para controle do Comercial.",
+        "stepItem": [
+          {"type": "folder", "src": "comercial"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ov_rushia",
+    "miniature": "/port/ov-rushia.png",
+    "type": "overlay",
+    "title": "Overlay Rushia (não oficial)",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/ov-rushia.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ov_risu",
+    "miniature": "/port/ov-risu.png",
+    "type": "overlay",
+    "title": "Overlay Risu (não oficial)",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/ov-risu.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ov_fubuki",
+    "miniature": "/port/ov-fubuki.png",
+    "type": "overlay",
+    "title": "Overlay Fubuki (não oficial)",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Overlay",
+        "stepItem": [
+          {"type": "image", "src": "/port/ov-fubuki.png"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "com_app",
+    "miniature": "/port/commissionApp/min.png",
+    "type": "dev",
+    "title": "Commission app",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para controle de commissions",
+        "stepItem": [
+          {"type": "folder", "src": "commissionApp"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pixelR",
+    "miniature": "/port/pixelR/min.png",
+    "type": "dev",
+    "title": "Pixel Rhino",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Site para um servidor, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "iframe", "src": "https://pixelrhino.vercel.app/"}
+        ]
+      },
+      {
+        "title": "Protótipos",
+        "desc": "Site para um servidor, criado utilizando React/Next/Typescript, protótipo feito no figma",
+        "stepItem": [
+          {"type": "folder", "src": "pixelR"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bank",
+    "miniature": "/port/oXz7vMd.png",
+    "type": "dev",
+    "title": "Aplicativo para banco (só front end)",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Aplicativo Mobile para banco, somente interface.",
+        "stepItem": [
+          {"type": "iframe", "src": "https://www.youtube.com/embed/pagUd3h3ZBM"}
+        ]
+      },
+      {
+        "title": "Protótipos",
+        "desc": "Aplicativo Mobile para banco, somente interface.",
+        "stepItem": [
+          {"type": "folder", "src": "bank"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rest",
+    "miniature": "/port/Vhlkdzl.png",
+    "type": "dev",
+    "title": "Aplicativo para restaurante",
+    "steps": [
+      {
+        "title": "Produto final",
+        "desc": "Aplicativo Mobile para restaurante, somente interface.",
+        "stepItem": [
+          {"type": "iframe", "src": "https://www.youtube.com/embed/1PnV0TqXoDE"}
+        ]
+      },
+      {
+        "title": "Protótipos",
+        "desc": "Aplicativo Mobile para restaurante, somente interface.",
+        "stepItem": [
+          {"type": "folder", "src": "rest"}
         ]
       }
     ]

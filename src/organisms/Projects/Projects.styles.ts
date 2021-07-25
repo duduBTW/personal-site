@@ -46,11 +46,19 @@ export const ProjectsWrapper = styled.div`
   select {
     grid-row: 1 / 2;
     grid-column: 20 / 22;
-    height: 50px;
-    align-self: flex-end;
     outline: none;
+    align-self: flex-end;
+
+    min-width: 100px;
+    height: 50px;
+    padding: 10px;
 
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+    @media only screen and (max-width: 800px) {
+      grid-column: 20 / 24;
+    }
   }
 `;

@@ -22,9 +22,10 @@ export const ProjectsTemplateWrapper = styled(Section)`
 
     select {
       height: 50px;
+      padding: 10px;
 
       border: none;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid grey;
       outline: none;
     }
   }
